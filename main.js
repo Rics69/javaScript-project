@@ -10,10 +10,10 @@ let personalMovieDB = {
 };
 
 let lastMovie1 = prompt('Один из последних просмотренных фильмов?', '');
-let grade1 = prompt('На сколько оцените его?', '');
+let grade1 = +prompt('На сколько оцените его?', '');
 
 let lastMovie2 = prompt('Один из последних просмотренных фильмов?', '');
-let grade2 = prompt('На сколько оцените его?', '');
+let grade2 = +prompt('На сколько оцените его?', '');
 
 personalMovieDB.movies[lastMovie1] = grade1;
 personalMovieDB.movies[lastMovie2] = grade2;
